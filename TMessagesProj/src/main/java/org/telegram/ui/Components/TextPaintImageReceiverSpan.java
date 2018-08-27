@@ -13,8 +13,8 @@ import android.graphics.Paint;
 import android.text.style.ReplacementSpan;
 import android.view.View;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ImageReceiver;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.ImageReceiver;
 import org.telegram.tgnet.TLRPC;
 
 import java.util.Locale;

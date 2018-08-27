@@ -10,8 +10,6 @@ package org.telegram.tgnet;
 
 import android.text.TextUtils;
 
-import org.telegram.messenger.SecureDocumentKey;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 

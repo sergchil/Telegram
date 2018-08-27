@@ -12,7 +12,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.view.View;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messengerz.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 
 public class DividerCell extends View {

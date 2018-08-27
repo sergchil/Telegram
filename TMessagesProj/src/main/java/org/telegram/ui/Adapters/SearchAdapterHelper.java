@@ -12,11 +12,11 @@ import android.util.SparseArray;
 
 import org.telegram.SQLite.SQLiteCursor;
 import org.telegram.SQLite.SQLitePreparedStatement;
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.MessagesStorage;
-import org.telegram.messenger.UserConfig;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.FileLog;
+import org.telegram.messengerz.MessagesController;
+import org.telegram.messengerz.MessagesStorage;
+import org.telegram.messengerz.UserConfig;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;

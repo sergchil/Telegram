@@ -15,10 +15,10 @@ import android.view.Gravity;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.EmojiSuggestion;
-import org.telegram.messenger.UserObject;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.Emoji;
+import org.telegram.messengerz.EmojiSuggestion;
+import org.telegram.messengerz.UserObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.AvatarDrawable;

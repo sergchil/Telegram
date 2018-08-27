@@ -44,16 +44,16 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.DispatchQueue;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.Intro;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.BuildVars;
+import org.telegram.messengerz.DispatchQueue;
+import org.telegram.messengerz.FileLog;
+import org.telegram.messengerz.Intro;
+import org.telegram.messengerz.LocaleController;
+import org.telegram.messengerz.MessagesController;
+import org.telegram.messengerz.NotificationCenter;
+import org.telegram.messengerz.R;
+import org.telegram.messengerz.UserConfig;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.RequestDelegate;
 import org.telegram.tgnet.TLObject;
@@ -361,8 +361,8 @@ public class IntroActivity extends Activity implements NotificationCenter.Notifi
             }
             justCreated = false;
         }
-        AndroidUtilities.checkForCrashes(this);
-        AndroidUtilities.checkForUpdates(this);
+//        AndroidUtilities.checkForCrashes(this);
+//        AndroidUtilities.checkForUpdates(this);
         ConnectionsManager.getInstance(currentAccount).setAppPaused(false, false);
     }
 

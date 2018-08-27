@@ -19,16 +19,16 @@ import android.view.MotionEvent;
 import android.view.SoundEffectConstants;
 import android.view.View;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.DownloadController;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.ImageLoader;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.UserConfig;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.DownloadController;
+import org.telegram.messengerz.FileLoader;
+import org.telegram.messengerz.FileLog;
+import org.telegram.messengerz.ImageLoader;
+import org.telegram.messengerz.LocaleController;
+import org.telegram.messengerz.MediaController;
+import org.telegram.messengerz.MessageObject;
+import org.telegram.messengerz.SharedConfig;
+import org.telegram.messengerz.UserConfig;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.RadialProgress;
 

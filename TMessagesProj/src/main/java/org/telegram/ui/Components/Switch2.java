@@ -18,7 +18,7 @@ import android.graphics.RectF;
 import android.support.annotation.Keep;
 import android.view.View;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messengerz.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 
 public class Switch2 extends View {

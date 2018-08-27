@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messengerz.AndroidUtilities;
 import org.telegram.ui.Components.Point;
 import org.telegram.ui.Components.Rect;
 

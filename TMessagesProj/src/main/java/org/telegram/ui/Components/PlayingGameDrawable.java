@@ -15,9 +15,9 @@ import android.graphics.PixelFormat;
 import android.graphics.RectF;
 import android.view.animation.DecelerateInterpolator;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.UserConfig;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.NotificationCenter;
+import org.telegram.messengerz.UserConfig;
 import org.telegram.ui.ActionBar.Theme;
 
 public class PlayingGameDrawable extends StatusDrawable {

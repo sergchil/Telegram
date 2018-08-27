@@ -12,7 +12,6 @@ import android.animation.AnimatorSet;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -20,8 +19,8 @@ import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.UserConfig;
+import org.telegram.messengerz.FileLog;
+import org.telegram.messengerz.UserConfig;
 import org.telegram.tgnet.ConnectionsManager;
 
 public class BaseFragment {

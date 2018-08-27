@@ -23,7 +23,7 @@ import android.support.annotation.Keep;
 import android.text.TextPaint;
 import android.view.View;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messengerz.AndroidUtilities;
 
 public class CheckBox extends View {
 

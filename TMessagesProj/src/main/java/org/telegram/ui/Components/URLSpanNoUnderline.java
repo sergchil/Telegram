@@ -13,7 +13,7 @@ import android.text.TextPaint;
 import android.text.style.URLSpan;
 import android.view.View;
 
-import org.telegram.messenger.browser.Browser;
+import org.telegram.messengerz.browser.Browser;
 
 public class URLSpanNoUnderline extends URLSpan {
 

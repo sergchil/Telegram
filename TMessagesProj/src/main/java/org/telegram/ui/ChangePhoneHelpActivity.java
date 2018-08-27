@@ -23,12 +23,12 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import org.telegram.PhoneFormat.PhoneFormat;
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.LocaleController;
+import org.telegram.messengerz.FileLog;
+import org.telegram.messengerz.R;
 import org.telegram.tgnet.TLRPC;
-import org.telegram.messenger.UserConfig;
+import org.telegram.messengerz.UserConfig;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.AlertDialog;
 import org.telegram.ui.ActionBar.BaseFragment;

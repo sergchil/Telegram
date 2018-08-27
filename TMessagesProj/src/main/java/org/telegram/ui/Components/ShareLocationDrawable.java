@@ -13,8 +13,8 @@ import android.graphics.Canvas;
 import android.graphics.ColorFilter;
 import android.graphics.drawable.Drawable;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.R;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.R;
 
 public class ShareLocationDrawable extends Drawable {
 

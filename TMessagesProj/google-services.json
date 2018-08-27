@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:123253462755:android:dc022572c167a16c",
+        "mobilesdk_app_id": "1:123253462755:android:83e2c87426a9483b",
         "android_client_info": {
-          "package_name": "org.telegram.messenger.beta"
+          "package_name": "org.telegram.messengerz.beta"
         }
       },
       "oauth_client": [

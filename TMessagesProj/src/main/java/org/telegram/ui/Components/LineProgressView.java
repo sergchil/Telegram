@@ -14,7 +14,7 @@ import android.graphics.Paint;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messengerz.AndroidUtilities;
 
 public class LineProgressView extends View {
 

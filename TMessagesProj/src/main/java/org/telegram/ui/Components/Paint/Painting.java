@@ -5,7 +5,7 @@ import android.graphics.Matrix;
 import android.graphics.RectF;
 import android.opengl.GLES20;
 
-import org.telegram.messenger.DispatchQueue;
+import org.telegram.messengerz.DispatchQueue;
 import org.telegram.ui.Components.Size;
 
 import java.nio.ByteBuffer;

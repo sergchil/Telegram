@@ -11,8 +11,8 @@ package org.telegram.ui.Components;
 import android.content.Context;
 import android.util.SparseIntArray;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.support.widget.GridLayoutManager;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.support.widget.GridLayoutManager;
 
 public class ExtendedGridLayoutManager extends GridLayoutManager {
 

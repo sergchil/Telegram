@@ -40,14 +40,14 @@ import android.widget.ImageView;
 
 import com.google.android.exoplayer2.ui.AspectRatioFrameLayout;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.Bitmaps;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.UserConfig;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.ApplicationLoader;
+import org.telegram.messengerz.Bitmaps;
+import org.telegram.messengerz.FileLog;
+import org.telegram.messengerz.MediaController;
+import org.telegram.messengerz.MessageObject;
+import org.telegram.messengerz.NotificationCenter;
+import org.telegram.messengerz.UserConfig;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.Theme;
 

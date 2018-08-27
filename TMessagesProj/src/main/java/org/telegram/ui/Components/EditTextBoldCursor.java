@@ -28,10 +28,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.R;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.FileLog;
+import org.telegram.messengerz.LocaleController;
+import org.telegram.messengerz.R;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

@@ -8,8 +8,8 @@
 
 package org.telegram.SQLite;
 
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.FileLog;
+import org.telegram.messengerz.BuildVars;
+import org.telegram.messengerz.FileLog;
 import org.telegram.tgnet.NativeByteBuffer;
 
 import java.nio.ByteBuffer;

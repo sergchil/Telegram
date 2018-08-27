@@ -31,14 +31,14 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.Emoji;
+import org.telegram.messengerz.LocaleController;
+import org.telegram.messengerz.MessagesController;
+import org.telegram.messengerz.NotificationCenter;
+import org.telegram.messengerz.FileLog;
+import org.telegram.messengerz.R;
+import org.telegram.messengerz.UserConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 

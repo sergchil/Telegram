@@ -23,9 +23,9 @@ import android.support.annotation.NonNull;
 import android.view.View;
 import android.view.ViewPropertyAnimator;
 
-import org.telegram.messenger.support.widget.RecyclerView;
-import org.telegram.messenger.support.widget.RecyclerView.*;
-import org.telegram.messenger.support.widget.SimpleItemAnimator;
+import org.telegram.messengerz.support.widget.RecyclerView;
+import org.telegram.messengerz.support.widget.RecyclerView.*;
+import org.telegram.messengerz.support.widget.SimpleItemAnimator;
 
 import java.util.ArrayList;
 import java.util.List;

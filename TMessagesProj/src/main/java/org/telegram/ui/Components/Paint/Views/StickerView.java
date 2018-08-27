@@ -8,8 +8,8 @@ import android.graphics.RectF;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ImageReceiver;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.ImageReceiver;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.Components.Point;

@@ -42,9 +42,9 @@ import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter;
 import com.google.android.exoplayer2.upstream.DefaultHttpDataSourceFactory;
 
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.secretmedia.ExtendedDefaultDataSourceFactory;
-import org.telegram.messenger.ApplicationLoader;
+import org.telegram.messengerz.NotificationCenter;
+import org.telegram.messengerz.secretmedia.ExtendedDefaultDataSourceFactory;
+import org.telegram.messengerz.ApplicationLoader;
 
 @SuppressLint("NewApi")
 public class VideoPlayer implements ExoPlayer.EventListener, SimpleExoPlayer.VideoListener, NotificationCenter.NotificationCenterDelegate {

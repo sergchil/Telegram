@@ -11,12 +11,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.browser.Browser;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.FileLoader;
+import org.telegram.messengerz.LocaleController;
+import org.telegram.messengerz.NotificationCenter;
+import org.telegram.messengerz.R;
+import org.telegram.messengerz.browser.Browser;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.AlertDialog;
 import org.telegram.ui.ActionBar.Theme;

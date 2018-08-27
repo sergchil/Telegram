@@ -28,10 +28,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.telegram.PhoneFormat.PhoneFormat;
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.UserObject;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.UserObject;
+import org.telegram.messengerz.FileLog;
+import org.telegram.messengerz.R;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.AvatarDrawable;
 import org.telegram.ui.Components.BackupImageView;

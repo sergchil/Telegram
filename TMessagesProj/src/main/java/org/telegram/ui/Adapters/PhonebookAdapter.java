@@ -13,11 +13,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import org.telegram.PhoneFormat.PhoneFormat;
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ContactsController;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.support.widget.RecyclerView;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.ContactsController;
+import org.telegram.messengerz.LocaleController;
+import org.telegram.messengerz.UserConfig;
+import org.telegram.messengerz.support.widget.RecyclerView;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Cells.DividerCell;
 import org.telegram.ui.Cells.LetterSectionCell;

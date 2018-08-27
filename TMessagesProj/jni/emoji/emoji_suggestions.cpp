@@ -415,7 +415,7 @@ jmethodID jclass_Suggestion_constructor;
 extern "C" {
 
 jobjectArray
-Java_org_telegram_messenger_Emoji_getSuggestion(JNIEnv *env, jobject object, jstring query) {
+Java_org_telegram_messengerz_Emoji_getSuggestion(JNIEnv *env, jobject object, jstring query) {
     const jchar *raw = env->GetStringChars(query, 0);
     jsize len = env->GetStringLength(query);
     std::vector<Suggestion> suggestions = GetSuggestions(utf16string(raw, len));

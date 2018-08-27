@@ -18,12 +18,12 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.support.widget.LinearLayoutManager;
-import org.telegram.messenger.support.widget.RecyclerView;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.LocaleController;
+import org.telegram.messengerz.MessagesController;
+import org.telegram.messengerz.R;
+import org.telegram.messengerz.support.widget.LinearLayoutManager;
+import org.telegram.messengerz.support.widget.RecyclerView;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.RequestDelegate;
 import org.telegram.tgnet.TLObject;

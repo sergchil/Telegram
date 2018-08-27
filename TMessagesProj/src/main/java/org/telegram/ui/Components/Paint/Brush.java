@@ -3,8 +3,8 @@ package org.telegram.ui.Components.Paint;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.R;
+import org.telegram.messengerz.ApplicationLoader;
+import org.telegram.messengerz.R;
 
 public interface Brush {
 

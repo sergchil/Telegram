@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-    package="org.telegram.messenger"
+    package="org.telegram.messengerz"
     android:installLocation="auto">
 
     <supports-screens android:anyDensity="true"
@@ -68,7 +68,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" tools:node="replace" />
 
     <application
-        android:name=".ApplicationLoader"
+        android:name="org.telegram.messengerz.ApplicationLoader"
         android:allowBackup="false"
         android:hardwareAccelerated="@bool/useHardwareAcceleration"
         android:icon="@drawable/ic_launcher"
@@ -177,7 +177,7 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
         </activity>
         <activity
-            android:name="org.telegram.messenger.OpenChatReceiver"
+            android:name="org.telegram.messengerz.OpenChatReceiver"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:exported="true">
         </activity>
@@ -217,7 +217,7 @@
                 android:theme="@style/Theme.TMessages.TransparentWithAlerts"/>
 
         <receiver
-            android:name=".AutoMessageHeardReceiver"
+            android:name="org.telegram.messengerz.AutoMessageHeardReceiver"
             android:exported="false">
             <intent-filter>
                 <action android:name="org.telegram.messenger.ACTION_MESSAGE_HEARD"/>
@@ -225,27 +225,27 @@
         </receiver>
 
         <receiver
-            android:name=".AutoMessageReplyReceiver"
+            android:name="org.telegram.messengerz.AutoMessageReplyReceiver"
             android:exported="false">
             <intent-filter>
                 <action android:name="org.telegram.messenger.ACTION_MESSAGE_REPLY"/>
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".CallReceiver">
+        <receiver android:name="org.telegram.messengerz.CallReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.PHONE_STATE"/>
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".SmsListener">
+        <receiver android:name="org.telegram.messengerz.SmsListener">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
                 <action android:name="android.provider.Telephony.NEW_OUTGOING_SMS" />
             </intent-filter>
         </receiver>
 
-        <service android:name=".AuthenticatorService" android:exported="true">
+        <service android:name="org.telegram.messengerz.AuthenticatorService" android:exported="true">
             <intent-filter>
                 <action android:name="android.accounts.AccountAuthenticator"/>
             </intent-filter>
@@ -253,7 +253,7 @@
                 android:resource="@xml/auth"/>
         </service>
 
-        <service android:name=".ContactsSyncAdapterService" android:exported="true">
+        <service android:name="org.telegram.messengerz.ContactsSyncAdapterService" android:exported="true">
             <intent-filter>
                 <action android:name="android.content.SyncAdapter" />
             </intent-filter>
@@ -264,7 +264,7 @@
         </service>
 
         <service
-            android:name="org.telegram.messenger.TgChooserTargetService"
+            android:name="org.telegram.messengerz.TgChooserTargetService"
             android:label="@string/AppName"
             android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
             <intent-filter>
@@ -272,23 +272,23 @@
             </intent-filter>
         </service>
 
-        <service android:name=".KeepAliveJob"
+        <service android:name="org.telegram.messengerz.KeepAliveJob"
                  android:exported="false"
                  android:permission="android.permission.BIND_JOB_SERVICE"/>
-        <service android:name=".BringAppForegroundService" android:enabled="true"/>
-        <service android:name=".NotificationsService" android:enabled="true"/>
-        <service android:name=".NotificationRepeat" android:exported="false"/>
-        <service android:name=".ClearCacheService" android:exported="false"/>
-        <service android:name=".VideoEncodingService" android:enabled="true"/>
-        <service android:name=".LocationSharingService" android:enabled="true"/>
-        <service android:name=".voip.VoIPService" android:enabled="true"/>
-        <service android:name=".MusicPlayerService" android:exported="true" android:enabled="true"/>
-        <service android:name=".MusicBrowserService" android:exported="true">
+        <service android:name="org.telegram.messengerz.BringAppForegroundService" android:enabled="true"/>
+        <service android:name="org.telegram.messengerz.NotificationsService" android:enabled="true"/>
+        <service android:name="org.telegram.messengerz.NotificationRepeat" android:exported="false"/>
+        <service android:name="org.telegram.messengerz.ClearCacheService" android:exported="false"/>
+        <service android:name="org.telegram.messengerz.VideoEncodingService" android:enabled="true"/>
+        <service android:name="org.telegram.messengerz.LocationSharingService" android:enabled="true"/>
+        <service android:name="org.telegram.messengerz.voip.VoIPService" android:enabled="true"/>
+        <service android:name="org.telegram.messengerz.MusicPlayerService" android:exported="true" android:enabled="true"/>
+        <service android:name="org.telegram.messengerz.MusicBrowserService" android:exported="true">
             <intent-filter>
                 <action android:name="android.media.browse.MediaBrowserService"/>
             </intent-filter>
         </service>
-        <service android:name=".WearDataLayerListenerService">
+        <service android:name="org.telegram.messengerz.WearDataLayerListenerService">
             <intent-filter>
                 <!-- listeners receive events that match the action and data filters -->
                 <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
@@ -298,13 +298,13 @@
                 <data android:scheme="wear" android:host="*" />
             </intent-filter>
         </service>
-        <service android:name=".voip.TelegramConnectionService" android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE">
+        <service android:name="org.telegram.messengerz.voip.TelegramConnectionService" android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE">
             <intent-filter>
                 <action android:name="android.telecom.ConnectionService" />
             </intent-filter>
         </service>
 
-		<receiver android:name=".MusicPlayerReceiver" >
+		<receiver android:name="org.telegram.messengerz.MusicPlayerReceiver" >
             <intent-filter>
                 <action android:name="org.telegram.android.musicplayer.close" />
                 <action android:name="org.telegram.android.musicplayer.pause" />
@@ -315,40 +315,40 @@
                 <action android:name="android.media.AUDIO_BECOMING_NOISY" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".voip.VoIPMediaButtonReceiver">
+        <receiver android:name="org.telegram.messengerz.voip.VoIPMediaButtonReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".AppStartReceiver" android:enabled="true">
+        <receiver android:name="org.telegram.messengerz.AppStartReceiver" android:enabled="true">
             <intent-filter>
                 <action android:name="org.telegram.start" />
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".RefererReceiver" android:exported="true" android:permission="android.permission.INSTALL_PACKAGES">
+        <receiver android:name="org.telegram.messengerz.RefererReceiver" android:exported="true" android:permission="android.permission.INSTALL_PACKAGES">
             <intent-filter>
                 <action android:name="com.android.vending.INSTALL_REFERRER" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".WearReplyReceiver" android:enabled="true"/>
+        <receiver android:name="org.telegram.messengerz.WearReplyReceiver" android:enabled="true"/>
 
-        <receiver android:name=".StopLiveLocationReceiver" android:enabled="true"/>
+        <receiver android:name="org.telegram.messengerz.StopLiveLocationReceiver" android:enabled="true"/>
 
-        <receiver android:name=".PopupReplyReceiver" android:enabled="true"/>
+        <receiver android:name="org.telegram.messengerz.PopupReplyReceiver" android:enabled="true"/>
 
-        <receiver android:name=".NotificationCallbackReceiver" android:enabled="true" android:exported="false"/>
+        <receiver android:name="org.telegram.messengerz.NotificationCallbackReceiver" android:enabled="true" android:exported="false"/>
 
-        <receiver android:name=".ShareBroadcastReceiver" android:enabled="true"/>
+        <receiver android:name="org.telegram.messengerz.ShareBroadcastReceiver" android:enabled="true"/>
 
-        <receiver android:name=".CustomTabsCopyReceiver" android:enabled="true"/>
+        <receiver android:name="org.telegram.messengerz.CustomTabsCopyReceiver" android:enabled="true"/>
 
-        <receiver android:name=".NotificationDismissReceiver" android:exported="false"/>
+        <receiver android:name="org.telegram.messengerz.NotificationDismissReceiver" android:exported="false"/>
 
-        <receiver android:name=".voip.VoIPActionsReceiver" android:exported="false"/>
+        <receiver android:name="org.telegram.messengerz.voip.VoIPActionsReceiver" android:exported="false"/>
 
         <provider
             android:name="android.support.v4.content.FileProvider"

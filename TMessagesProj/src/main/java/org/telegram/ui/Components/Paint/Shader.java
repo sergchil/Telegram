@@ -3,8 +3,8 @@ package org.telegram.ui.Components.Paint;
 import android.graphics.Color;
 import android.opengl.GLES20;
 
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.FileLog;
+import org.telegram.messengerz.BuildVars;
+import org.telegram.messengerz.FileLog;
 
 import java.util.HashMap;
 import java.util.Map;

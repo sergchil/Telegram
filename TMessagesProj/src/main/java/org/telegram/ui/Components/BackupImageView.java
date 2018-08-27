@@ -18,8 +18,8 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import org.telegram.messenger.ImageReceiver;
-import org.telegram.messenger.SecureDocument;
+import org.telegram.messengerz.ImageReceiver;
+import org.telegram.messengerz.SecureDocument;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
 

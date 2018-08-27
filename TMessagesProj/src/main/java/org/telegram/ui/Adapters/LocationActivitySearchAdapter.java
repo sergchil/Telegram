@@ -11,7 +11,7 @@ package org.telegram.ui.Adapters;
 import android.content.Context;
 import android.view.ViewGroup;
 
-import org.telegram.messenger.support.widget.RecyclerView;
+import org.telegram.messengerz.support.widget.RecyclerView;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Cells.LocationCell;
 import org.telegram.ui.Components.RecyclerListView;

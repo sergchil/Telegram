@@ -46,15 +46,15 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SharedConfig;
-import org.telegram.messenger.support.fingerprint.FingerprintManagerCompat;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.LocaleController;
+import org.telegram.messengerz.MessagesController;
+import org.telegram.messengerz.NotificationCenter;
+import org.telegram.messengerz.ApplicationLoader;
+import org.telegram.messengerz.FileLog;
+import org.telegram.messengerz.R;
+import org.telegram.messengerz.SharedConfig;
+import org.telegram.messengerz.support.fingerprint.FingerprintManagerCompat;
 import org.telegram.ui.ActionBar.AlertDialog;
 import org.telegram.ui.ActionBar.Theme;
 

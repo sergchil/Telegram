@@ -12,7 +12,7 @@ import android.content.Context;
 import android.view.Gravity;
 import android.widget.FrameLayout;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messengerz.AndroidUtilities;
 import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.Components.RadialProgressView;
 

@@ -13,7 +13,7 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messengerz.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 
 public class HintEditText extends EditTextBoldCursor {

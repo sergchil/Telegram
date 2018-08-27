@@ -23,7 +23,7 @@ import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messengerz.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 
 public class ScrollSlidingTextTabStrip extends HorizontalScrollView {

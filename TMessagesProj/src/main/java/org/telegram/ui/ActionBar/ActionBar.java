@@ -29,9 +29,9 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.LocaleController;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.BuildVars;
+import org.telegram.messengerz.LocaleController;
 import org.telegram.ui.Components.FireworksEffect;
 import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.Components.SnowflakesEffect;

@@ -15,7 +15,7 @@ import android.graphics.PixelFormat;
 import android.graphics.drawable.Drawable;
 import android.view.animation.DecelerateInterpolator;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.telegram.messengerz.AndroidUtilities;
 
 public class CloseProgressDrawable extends Drawable {
 

@@ -26,8 +26,8 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.FileLog;
 import org.telegram.ui.Components.AvatarDrawable;
 import org.telegram.ui.Components.BackupImageView;
 import org.telegram.ui.Components.ChatBigEmptyView;
@@ -47,7 +47,6 @@ import org.telegram.ui.Components.RadioButton;
 import org.telegram.ui.Components.RecyclerListView;
 import org.telegram.ui.Components.SeekBarView;
 import org.telegram.ui.Components.Switch;
-import org.telegram.ui.Components.Switch2;
 import org.telegram.ui.Components.TypefaceSpan;
 
 import java.lang.reflect.Field;

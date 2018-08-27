@@ -17,10 +17,10 @@ import android.view.animation.AccelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.DataQuery;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.UserConfig;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.DataQuery;
+import org.telegram.messengerz.Emoji;
+import org.telegram.messengerz.UserConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.BackupImageView;
 import org.telegram.ui.Components.LayoutHelper;

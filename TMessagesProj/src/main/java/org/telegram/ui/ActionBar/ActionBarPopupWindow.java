@@ -30,9 +30,9 @@ import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.ScrollView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
+import org.telegram.messengerz.AndroidUtilities;
+import org.telegram.messengerz.FileLog;
+import org.telegram.messengerz.R;
 import org.telegram.ui.Components.LayoutHelper;
 
 import java.lang.reflect.Field;
