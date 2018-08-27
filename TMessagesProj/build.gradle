@@ -35,7 +35,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion '28.0.2'
 
-    defaultConfig.applicationId = "org.telegram.messenger"
+    defaultConfig.applicationId = "org.telegramz.messenger"
 
     sourceSets.main.jniLibs.srcDirs = ['./jni/']
 
@@ -85,7 +85,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
 
-        release {
+        release {   
             debuggable false
             jniDebuggable false
             signingConfig signingConfigs.release
