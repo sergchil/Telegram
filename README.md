@@ -1,5 +1,7 @@
 if you get errors during build, disable **INSTANT RUN** (bug in android studio 3.1)
 
+also don't forget to choose build variant for your CPU model
+![choose build variant for your CPU model](https://raw.githubusercontent.com/sergchil/Telegram/master/imgs/screenshot-1.png)
 
 ## Telegram messenger for Android
 
